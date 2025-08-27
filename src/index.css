@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* 見開きらしい紙感を少しだけ */
+.page {
+  @apply bg-white rounded-md shadow-sm border border-gray-200;
+}
+
+.section-title {
+  @apply text-sm font-semibold text-gray-700 tracking-wide uppercase;
+}
+
+.ai-badge {
+  @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-200;
+}
+

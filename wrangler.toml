@@ -1,0 +1,6 @@
+name = "fukuri-nikki"
+compatibility_date = "2024-08-01"
+
+[vars]
+# 本番ではCloudflare PagesのダッシュボードでOPENAI_API_KEYを設定すること。
+
